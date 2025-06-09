@@ -1,0 +1,20 @@
+{
+  "name": "gym-pass-api",
+  "version": "1.0.0",
+  "description": "API para controle de gym-pass",
+  "homepage": "https://github.com/JVRicci/Gym-Pass-API#readme",
+  "bugs": {
+    "url": "https://github.com/JVRicci/Gym-Pass-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JVRicci/Gym-Pass-API.git"
+  },
+  "license": "ISC",
+  "author": "JVvsRicci",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
