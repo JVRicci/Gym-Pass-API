@@ -29,3 +29,19 @@ Após criar esse arquivo com o comando
 ```
 
 Basta apenas instalar novamente as dependencias
+
+# Variáveis de ambiente
+
+Para o projeto é utilizada a lib dotenv para verificação de variáveis de ambiente
+
+```bash
+    npm i dotenv
+```
+
+# Validacão de variáveis
+
+Para o projeto é utilizada a lib zod para verificação de variáveis 
+
+```bash
+    npm i zod
+```
