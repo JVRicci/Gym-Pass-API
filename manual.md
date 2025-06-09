@@ -18,3 +18,14 @@ Após isso, foi instalado o Fastify como microframework para desenvolvimento da 
 ```bash
     npm i fastify
 ```
+
+# Arquivo .npmrc
+
+O arquivo serve para que as versões das dependencias instaladas não se alterem, ou seja, fiquem fixas
+Após criar esse arquivo com o comando 
+
+```js
+    save-exact=true
+```
+
+Basta apenas instalar novamente as dependencias
