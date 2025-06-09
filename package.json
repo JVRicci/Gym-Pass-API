@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "API para controle de gym-pass",
   "homepage": "https://github.com/JVRicci/Gym-Pass-API#readme",
+  "scripts": {
+    "dev" : "tsx watch src/server.ts",
+    "prod" : "node build/server.js",
+    "build": "tsup src --out-dir build",
+    "test": "test"
+  },
   "bugs": {
     "url": "https://github.com/JVRicci/Gym-Pass-API/issues"
   },
@@ -14,7 +20,14 @@
   "author": "JVvsRicci",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsc": "^2.0.4",
+    "tsup": "^8.5.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fastify": "^5.3.3"
   }
 }
