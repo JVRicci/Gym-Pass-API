@@ -70,3 +70,35 @@ No arquivo tsconfig foram editadas as seguintes linhas
       "@/*" : ["./src/*"]
     }, 
 ```
+
+# Query Builder vs ORM
+
+No projeto é utilizada a ORM Prisma
+A diferença entre ORM e Query Builders se dá no nivel de abstração: Enquanto os Query Builders são focados em preparar queries para o banco, sem ter controle direto sobre a estrutura do banco (tabelas, schemas, etc), os ORM fazem também esse serviço, manipulando tabelas do banco, em criaçoes e alterações por exemplo e dessa forma, mapeando o banco de dados na aplicação
+
+Para instalação do prisma:
+
+```bash
+    npm i prisma - D
+```
+
+Para iniciar o ORM e banco
+
+```bash
+    npx primas init
+```
+
+Com isso será criada a pasta prisma e nela o arquivo schema
+
+Após isso é possivel criar models no arquivo schema.prisma
+Com as models criadas, basta apenas usar o seguinte comando para gerar as tabelas
+
+```bash
+    npx prisma generate
+```
+
+Para fazer queries é necessário o pacote 
+
+```bash
+    npm i @prisma/client
+```
