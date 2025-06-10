@@ -45,3 +45,28 @@ Para o projeto é utilizada a lib zod para verificação de variáveis
 ```bash
     npm i zod
 ```
+
+# ESLint
+
+O projeto utiliza ESlint como formatador de código
+
+```bash
+    npm i eslint -D
+```
+
+Para iniciar 
+
+```bash
+    npx eslint --init
+```
+
+# Configurando path 
+
+No arquivo tsconfig foram editadas as seguintes linhas
+
+```js
+    "baseUrl": "./",
+    "paths": {
+      "@/*" : ["./src/*"]
+    }, 
+```
